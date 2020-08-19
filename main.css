@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Work Sans Variable';
+	src: url('/WorkSansVariable.ttf') format('truetype');
+	font-variation-settings: 'wght' 400;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Work Sans';
+	src: url('/WorkSans.ttf') format('truetype');
+	font-weight: 400;
+	font-display: swap;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	padding: 1.2rem;
+	font-family: 'Work Sans Variable', 'Work Sans', sans-serif;
+	background-color: #161616;
+	/* Background pattern from Toptal Subtle Patterns */
+	background-image: url('/diagmonds.png');
+	color: snow;
+}
+
+body > header {
+	text-align: center;
+}
+
+h1 {
+	font-weight: 700;
+	font-variation-settings: 'wght' 760;
+}
+
+main {
+	flex-grow: 1;
+}
+
+#cover {
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+#cover > img {
+	width: 100%;
+	max-width: 600px;
+}
+
+body > footer {
+	color: #686868;
+}
