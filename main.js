@@ -27,12 +27,12 @@ async function updateContent () {
 	const { mbid, title } = await getRelease(track)
 	document.querySelector('#cover > figcaption').innerHTML = track
 	const coverImage = document.querySelector('#cover > img')
-	coverImage.src = `http://coverartarchive.org/release/${ mbid }/front-500`
+	coverImage.src = `https://coverartarchive.org/release/${ mbid }/front-500`
 	coverImage.alt = title
 }
 
 async function getIcestats () {
-	const endpoint = 'http://listento.kdltfm.com:8000/status-json.xsl'
+	const endpoint = 'https://listento.kdltfm.com:8443/status-json.xsl'
 	const response = await fetch(endpoint, { cache: 'no-store' })
 	const data = await response.json()
 	return data.icestats
