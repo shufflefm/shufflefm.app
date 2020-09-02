@@ -33,7 +33,7 @@ async function updateContent () {
 }
 
 async function getIcestats () {
-	const endpoint = 'https://listento.kdltfm.com:8443/status-json.xsl'
+	const endpoint = 'https://remote.shufflefm.app:8443/status-json.xsl'
 	const response = await fetch(endpoint, { cache: 'no-store' })
 	const data = await response.json()
 	return data.icestats
