@@ -4,7 +4,7 @@
 	"description": "Commercial Free Variety!",
 	"icons": [
 		{
-			"src": "/icon.svg",
+			"src": "/icon-1152.svg",
 			"type": "image/svg",
 			"sizes": "48x48 96x96 192x192 384x384 1152x1152",
 			"purpose": "any maskable"
