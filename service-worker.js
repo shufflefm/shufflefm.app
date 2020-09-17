@@ -1,6 +1,6 @@
 'use strict'
 
-const CACHE_ID = '4'
+const CACHE_ID = '5'
 const CACHE_LIST = [
 	'/index.html',
 	'/main.js',
