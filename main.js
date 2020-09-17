@@ -10,7 +10,7 @@ document.addEventListener('visibilitychange', () => {
 window.addEventListener('load', async () => {
 	document.getElementById('stream').play()
 	document.querySelector('#cover > img').addEventListener('error', ({ target }) => {
-		target.src = 'icon.svg'
+		target.src = 'shuffle-logo.png'
 		target.alt = 'Shuffle FM'
 	})
 	updateContent()
