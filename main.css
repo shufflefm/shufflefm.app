@@ -47,6 +47,10 @@ main {
 	flex-grow: 1;
 }
 
+#audio {
+	text-align: center;
+}
+
 #cover {
 	text-align: center;
 	margin-top: 1rem;
