@@ -47,7 +47,8 @@ main {
 	flex-grow: 1;
 }
 
-#audio {
+#stream {
+	margin-top: 10px;
 	text-align: center;
 }
 
